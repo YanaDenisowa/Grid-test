@@ -1,0 +1,149 @@
+section.category{
+    background-color:#F2F2F2;
+    /*padding: 40px 113px 25px 113px;*/
+}
+.category_container{
+    display: flex;
+    flex-wrap:wrap;
+
+}
+.category_container .first__item{
+    /*height: 440px;*/
+    width: 100%;
+    max-width: 558px;
+    /*height: 40%;*/
+    background: url("img/women_collection_category.png");
+    mix-blend-mode: normal;
+    border-radius: 16px;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position:50% 50%;
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.item__info{
+    padding: 32px 0 0 32px;
+}
+.item__info h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 51px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+    padding-bottom: 12px;
+}
+.item__info h3{
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: left;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    margin-left:0;
+}
+a.category_btn{
+    width:100%;
+    max-width: 96px;
+    text-decoration: none;
+    padding: 6px 22px 8px 21px;
+    background-color: rgb(255 255 255 / 20%);
+    mix-blend-mode: normal;
+    border-radius: 8px;
+}
+.category_btn span{
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color:#ffffff;
+}
+.item__container{
+    display: flex;
+}
+.first__pic{
+    margin-right: 24px;
+    margin-bottom: 24px;
+}
+.second__pic{
+    max-width:267px;
+    width: 100%;
+    height:auto;
+    margin-bottom: 24px;
+    background: url('img/dresses_category.png') no-repeat;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    border-radius: 16px;
+}
+.pic__info{
+    padding:32px;
+}
+.second__pic_btn{
+    width:100%;
+    max-width:72px;
+    background: rgb(255 255 255 / 20%);
+    mix-blend-mode: normal;
+    border-radius: 8px;
+    padding: 8px 20px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+.pic__info h2{
+    margin-top:66px;
+    font-family: 'Playfair Display',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: 0.4px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.third__item{
+
+    background:url('img/denim_jackets_category.png');
+    border-radius: 16px;
+    background-position: 100% 50%;
+}
+.third__item_info{
+    padding:33px;
+}
+.third__item_btn{
+    width: 100%;
+    max-width: 72px;
+    padding: 8px 20px;
+    text-decoration: none;
+    background: rgb(255 255 255 / 20%);
+    mix-blend-mode: normal;
+    border-radius: 8px;
+    font-family: 'Mulish',sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.third__item_info h2{
+    margin-top:66px;
+    margin-bottom: 9px;
+    font-family: 'Playfair Display',sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 45px;
+    letter-spacing: 0.4px;
+    color: #FFFFFF;
+}
